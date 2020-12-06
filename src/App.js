@@ -9,7 +9,7 @@ function App() {
   let [wrong, setWrong] = React.useState(false);
   let [kod, setKod] = React.useState('')
 
-  console.log(";)")
+  console.log(";)") // 25 
 
   const checkCode = () => {
     if (kod.length !== 6){
@@ -28,7 +28,7 @@ function App() {
     setOpen(true);
     setWrong(false);
   }
-
+  // 85
   const updateKod = (event) => {
     setKod(event.target.value);
   }
@@ -61,4 +61,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; // 27
